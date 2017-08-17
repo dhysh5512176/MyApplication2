@@ -7,6 +7,7 @@ import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
+import android.widget.Toast;
 
 /**
  * 作者：David
@@ -33,6 +34,8 @@ public class MyDemo01 extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+
+        System.out.print("111");
 
         //绘制一个圆
        /* paint.setColor(Color.RED);//设置颜色
