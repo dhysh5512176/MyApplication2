@@ -36,6 +36,8 @@ public class MyDemo01 extends View {
         super.onDraw(canvas);
 
         System.out.print("111");
+        System.out.print("111");
+        System.out.print("111");
 
         //绘制一个圆
        /* paint.setColor(Color.RED);//设置颜色
